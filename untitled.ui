@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>775</width>
+    <height>650</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>775</width>
+    <height>650</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>775</width>
+    <height>650</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(249, 213, 255);
+background-color: rgb(223, 218, 60);
+backgroundcolor: qconicalgradient(cx:0, cy:0, angle:135, stop:0 rgba(255, 255, 0, 69), stop:0.375 rgba(255, 255, 0, 69), stop:0.423533 rgba(251, 255, 0, 145), stop:0.45 rgba(247, 255, 0, 208), stop:0.477581 rgba(255, 244, 71, 130), stop:0.518717 rgba(255, 218, 71, 130), stop:0.55 rgba(255, 255, 0, 255), stop:0.57754 rgba(255, 203, 0, 130), stop:0.625 rgba(255, 255, 0, 69), stop:1 rgba(255, 255, 0, 69));</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>1000</width>
+     <height>1000</height>
+    </size>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QFrame" name="frame">
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-image: url(:/resimler/pizza.jpg);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QLabel" name="label">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>761</width>
+         <height>361</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Gill Sans Ultra Bold</family>
+         <pointsize>110</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+         <underline>false</underline>
+         <strikeout>false</strikeout>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="text">
+        <string>Pizzashi</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="degis">
+      <property name="font">
+       <font>
+        <pointsize>-1</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    font-size: 18px;
+	background-color: #89660c;
+	color: #000000;
+	border-radius: 5px;
+	border: 1px solid #0b9e16;
+	font-weight: bold;
+    padding: 8px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);  
+}
+QPushButton:hover {
+    background-color: #b7810c;
+}</string>
+      </property>
+      <property name="text">
+       <string>Sipariş Ver</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="ara">
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    font-size: 18px;
+	background-color: #89660c;
+	color: #000000;
+	border-radius: 5px;
+	border: 1px solid #0b9e16;
+	font-weight: bold;
+    padding: 8px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);  
+}
+QPushButton:hover {
+    background-color: #b7810c;
+}</string>
+      </property>
+      <property name="text">
+       <string>Sipariş Ara</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="gor">
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    font-size: 18px;
+	background-color: #89660c;
+	color: #000000;
+	border-radius: 5px;
+	border: 1px solid #0b9e16;
+	font-weight: bold;
+    padding: 8px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);  
+}
+QPushButton:hover {
+    background-color: #b7810c;
+}</string>
+      </property>
+      <property name="text">
+       <string>Siparişleri Gör</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="ver_2">
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    font-size: 18px;
+	background-color: #89660c;
+	color: #000000;
+	border-radius: 5px;
+	border: 1px solid #0b9e16;
+	font-weight: bold;
+    padding: 8px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);  
+}
+QPushButton:hover {
+    background-color: #b7810c;
+}</string>
+      </property>
+      <property name="text">
+       <string>Siparişini Değiştir</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="sil">
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    font-size: 18px;
+	background-color: #89660c;
+	color: #000000;
+	border-radius: 5px;
+	border: 1px solid #0b9e16;
+	font-weight: bold;
+    padding: 8px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);  
+}
+QPushButton:hover {
+    background-color: #b7810c;
+}</string>
+      </property>
+      <property name="text">
+       <string>Sipariş Sil</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+   <zorder>frame</zorder>
+   <zorder>gor</zorder>
+   <zorder>ara</zorder>
+   <zorder>sil</zorder>
+   <zorder>ver_2</zorder>
+   <zorder>degis</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>775</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="../qrc/deneme.qrc"/>
+ </resources>
+ <connections/>
+</ui>
